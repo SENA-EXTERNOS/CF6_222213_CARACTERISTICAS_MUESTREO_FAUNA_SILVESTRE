@@ -8,42 +8,76 @@
       h1 Fauna silvestre
 
     .row.mt-5.justify-content-center.intro2
-      .col-lg-9.mb-5
+      .col-lg-9.mb-5.mt-5
         p.texto-blanco Se denomina fauna a todas aquellas especies animales que viven de manera libre en un espacio determinado, que no dependen del humano para la satisfacción de sus necesidades básicas como alimento, refugio, reproducción y que interactúan con factores bióticos y abióticos para asegurar su supervivencia. Dentro de la fauna silvestre se pueden encontrar tres subtipos que se clasifican de acuerdo con su relación con el ambiente que habitan, estos se dividen en: 
       
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/Tema1/img1.png', alt='Texto que describa la imagen')
-
+          img(data-aos="fade-left" src='@/assets/curso/temas/Tema1/img1.png', alt='Texto que describa la imagen')
+    
     .row.mt-5
+      .col-lg-4.mb-5
+        figure
+        img(data-aos="flip-right" src='@/assets/curso/temas/Tema1/img18.png', alt='Texto que describa la imagen')
+      .col-lg-8
+        TabsB
+        .row
+          .col-lg-1.mt-3
+            figure
+            img(src='@/assets/curso/temas/Tema1/img19.svg', alt='Texto que describa la imagen')
+          .col-lg-11.mt-2
+            b Fauna silvestre autóctona: 
+            p se refiere a todas aquellas especies que son propias del ambiente natural en que viven.
+        TabsB
+        .row
+          .col-lg-1.mt-3
+            figure
+            img(src='@/assets/curso/temas/Tema1/img20.svg', alt='Texto que describa la imagen')
+          .col-lg-11.mt-2
+            b Fauna silvestre exótica:
+            p son todas aquellas especies que habitan un espacio de manera forzada, generalmente, son introducidas por el ser humano.
+        TabsB
+        .row
+          .col-lg-1.mt-3
+            figure
+            img(src='@/assets/curso/temas/Tema1/img21.svg', alt='Texto que describa la imagen')
+          .col-lg-11.mt-2
+            b Fauna invasora: 
+            p son especies que, sin la ayuda de factores externos como el humano, han decidido cambiar de ambiente, buscando su propio bienestar.
+        TabsB
+
+    .row.mt-2
       .col-lg-12
         p A continuación, se verán las diferentes características y formas de organización de las diferentes especies que cohabitan en un mismo ecosistema.
       
     separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido.mt-5
+    #t_1_1.titulo-segundo.color-acento-contenido.mt-3
       h3 1.1 Características y organización
+    
+    .bg1
+      .row.mt-5.justify-content-center
+        .col-lg-7
+          p La fauna silvestre, ya sea autóctona, exótica o invasora, se caracteriza porque se ha desarrollado evolutivamente sin la intervención humana, sus ciclos de vida se dan de acuerdo con el área en que están, dado que se han adaptado a este lugar para suplir sus necesidades. De esta manera, su ubicación condiciona los procesos de reproducción que se llevan a cabo en los ambientes en que estos se desarrollan, rigiéndose estrictamente por las leyes de selección natural y preservación de la especie en donde
+          .col-lg-12
+            .cajon.color-acento-contenido.p-4
+              .bloque-texto-b
+                i.fas.fa-quote-left
+              p.text-center #[b sobrevive el más adaptado]
+              p.text-center Darwin, 2020
+              .bloque-texto-b
+                i.fas.fa-quote-right
+          
 
-    .row.mt-5.justify-content-center
-      .col-lg-7
-        p La fauna silvestre, ya sea autóctona, exótica o invasora, se caracteriza porque se ha desarrollado evolutivamente sin la intervención humana, sus ciclos de vida se dan de acuerdo con el área en que están, dado que se han adaptado a este lugar para suplir sus necesidades. De esta manera, su ubicación condiciona los procesos de reproducción que se llevan a cabo en los ambientes en que estos se desarrollan, rigiéndose estrictamente por las leyes de selección natural y preservación de la especie en donde
-        .col-lg-12
-          .bloque-texto-b.color-primario.p-4
-            .bloque-texto-b__texto
-              i.fas.fa-quote-left
-            b sobrevive el más adaptado
-            p.mt-3 Darwin, 2020
-              i.fas.fa-quote-right
+          .col-lg-12
+          p Estas especies también se caracterizan por ser diseminadoras de semillas, polinizadoras, reguladoras de poblaciones y aportar energía al ecosistema en que se desarrollan.
 
-        .col-lg-12
-        p Estas especies también se caracterizan por ser diseminadoras de semillas, polinizadoras, reguladoras de poblaciones y aportar energía al ecosistema en que se desarrollan.
+        .col-lg-4
+          figure
+            img(data-aos="fade-left" src='@/assets/curso/temas/Tema1/img2.png', alt='Texto que describa la imagen')
 
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/temas/Tema1/img2.png', alt='Texto que describa la imagen')
-
-      .col-lg-11  
-        p A continuación, se señalan las diferentes condiciones que se deben dar para poder estudiar un determinado ecosistema
+        .col-lg-11  
+          p A continuación, se señalan las diferentes condiciones que se deben dar para poder estudiar un determinado ecosistema
 
     separador
       
@@ -154,27 +188,27 @@
     .row.mt-5.justify-content-center.intro3
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/Tema1/img14.png', alt='Texto que describa la imagen')
+          img(data-aos="flip-right" src='@/assets/curso/temas/Tema1/img14.png', alt='Texto que describa la imagen')
 
       .col-lg-8.mb-5
         p.texto-blanco La alimentación de los animales invertebrados es principalmente herbívora, pero también se presentan otros patrones de alimentación como carnívora, omnívora, detritívora o filtradora. Los patrones de alimentación de los vertebrados son principalmente carnívoros, a excepción de los mamíferos, quienes, además de carnívoros, son herbívoros y omnívoros.
         p.texto-blanco Para avanzar en esta experiencia de aprendizaje, se hace necesario contar con un panorama más amplio que posibilite un abordaje completo de los aspectos relevantes que, desde el enfoque normativo que se ha establecido en el país, aporta para dar respuesta a problemáticas asociadas con la caza ilegal, la conservación y la protección de los ecosistemas. 
-      
-    #t_1_5.titulo-segundo.color-acento-contenido.mt-3
-      h3 1.5 Marco Normativo
+    .bg2
+      #t_1_5.titulo-segundo.color-acento-contenido.mt-3
+        h3 1.5 Marco Normativo
 
-    .row.mt-3.justify-content-center.mt-2
-      .col-lg-10.mb-4
-        .bloque-texto-b.color-cajon2
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p En Colombia, las normativas que propenden por el cuidado de la fauna silvestre se han venido promulgando desde el año 1972, cuando se fundaron las juntas defensoras de animales, para efectos prácticos dichas normativas serán presentadas de acuerdo con las afectaciones más comunes como la cacería y el tráfico ilegal de las mismas y por último aquellas relacionadas con la protección de su hábitat
+      .row.mt-3.justify-content-center.mt-2
+        .col-lg-10.mb-4
+          .bloque-texto-b.color-cajon2
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p En Colombia, las normativas que propenden por el cuidado de la fauna silvestre se han venido promulgando desde el año 1972, cuando se fundaron las juntas defensoras de animales, para efectos prácticos dichas normativas serán presentadas de acuerdo con las afectaciones más comunes como la cacería y el tráfico ilegal de las mismas y por último aquellas relacionadas con la protección de su hábitat
 
-      .col-lg-7
-        .bloque-texto-b
-          .bloque-texto-b__texto
-            b Lamprea-Maldonado Lamprea-Maldonado, Ochoa-Duarte, Castillo-Sánchez, Zárrate-Charry, Gómez-Junco, Jiménez-Alvarado, Moreno-Díaz y González-Maya, 2019
-            i.fas.fa-quote-right
+        .col-lg-7
+          .bloque-texto-b
+            .bloque-texto-b__texto
+              b Lamprea-Maldonado Lamprea-Maldonado, Ochoa-Duarte, Castillo-Sánchez, Zárrate-Charry, Gómez-Junco, Jiménez-Alvarado, Moreno-Díaz y González-Maya, 2019
+              i.fas.fa-quote-right
 
 
     .row.mb-4.mt-5
@@ -185,55 +219,121 @@
               figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/Tema1/img15.png", alt="alt")
             .col-lg-8
-              p Ley 5 de 1972: fundación y funcionamiento de juntas defensoras de animales
-              p Decreto 497 de 1973: creación de juntas defensoras de animales en todos los departamentos del país. 
-              p Acuerdo 039 de 1985: listado de vertebrados que pueden ser objeto de caza. 
-              p Resolución 17 de 1987: reglamentación de listado de vertebrados que pueden ser objeto de caza. 
-              p Resolución 42 de 1989: autorización exportación de fauna proveniente de zoocriaderos.  
-              p Resolución 342 de 1994: modificación art 7 y 9 de la resolución 017 de 1987. 
-              p Resolución 1317 de 2000: criterios para la licencia de caza y establecimiento de zoocriaderos. 
-              p Decreto 4688 de 2005: reglamentación código nacional de recursos renovables y protección al medio ambiente.
+              ul.mt-4.lista-ul--
+                li 
+                  i.fas.fa-atom.color
+                  |   Ley 5 de 1972: fundación y funcionamiento de juntas defensoras de animales
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |   Decreto 497 de 1973: creación de juntas defensoras de animales en todos los departamentos del país.
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |   Acuerdo 039 de 1985: listado de vertebrados que pueden ser objeto de caza.
+              
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |  Resolución 17 de 1987: reglamentación de listado de vertebrados que pueden ser objeto de caza. 
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |  Resolución 42 de 1989: autorización exportación de fauna proveniente de zoocriaderos.  
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |   Resolución 342 de 1994: modificación art 7 y 9 de la resolución 017 de 1987. 
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |  Resolución 1317 de 2000: criterios para la licencia de caza y establecimiento de zoocriaderos. 
+                li.mt-3 
+                  i.fas.fa-atom.color
+                  |  Decreto 4688 de 2005: reglamentación código nacional de recursos renovables y protección al medio ambiente.
 
           .row(titulo="Tráfico de fauna:")
             .col-lg-3
               figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/Tema1/img16.png", alt="alt")
             .col-lg-8
-              p Decreto 1608 de 1978: reglamentación código nacional de recursos renovables y protección al medio ambiente y Ley 23 de 1973 en fauna. 
-              p Decreto 1681 de 1978: reglamentación de recursos hidrobiológicos, ley 23 de 1973 y decreto 356 de 1957. 
-              p Ley 17 de 1981: convención sobre comercio internacional de especies amenazadas y fauna y flora silvestre. 
-              p Decreto 1401 de 1997: autoridad administrativa de Colombia ante la CITES. 
-              p Ley 599 de 2000: título XI delitos contra los recursos naturales y el medio ambiente.
-              p Ley 1333 de 2009: establecimiento de procedimiento sancionatorio ambiental. 
-              p Resolución 2064 de 2010: medidas posteriores, aprehensión preventiva, restitución o decomiso de especímenes de fauna y flora terrestre y acuática.  
-              p Resolución 1909 de 2017: salvoconducto para movilización de especímenes de diversidad biológica. 
-              p Resolución 0081 de 2018: modificaciones a la resolución 1909 y otras determinaciones. 
-              p Ley 2153 de 2021: sistema para prevenir y evitar el tráfico ilegal de fauna y flora.
+              ul.mt-4.lista-ul--
+                li 
+                  i.fas.fa-atom.color
+                  |   Decreto 1608 de 1978: reglamentación código nacional de recursos renovables y protección al medio ambiente y Ley 23 de 1973 en fauna. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Decreto 1681 de 1978: reglamentación de recursos hidrobiológicos, ley 23 de 1973 y decreto 356 de 1957. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Ley 17 de 1981: convención sobre comercio internacional de especies amenazadas y fauna y flora silvestre. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Decreto 1401 de 1997: autoridad administrativa de Colombia ante la CITES. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Ley 599 de 2000: título XI delitos contra los recursos naturales y el medio ambiente.
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Ley 1333 de 2009: establecimiento de procedimiento sancionatorio ambiental. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Resolución 2064 de 2010: medidas posteriores, aprehensión preventiva, restitución o decomiso de especímenes de fauna y flora terrestre y acuática.  
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Resolución 1909 de 2017: salvoconducto para movilización de especímenes de diversidad biológica. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Resolución 0081 de 2018: modificaciones a la resolución 1909 y otras determinaciones. 
+                li.mt-3 
+                    i.fas.fa-atom.color
+                    |   Ley 2153 de 2021: sistema para prevenir y evitar el tráfico ilegal de fauna y flora.
 
           .row(titulo="Protección del hábitat:")
             .col-lg-3
               figure(data-aos="zoom-in")
               img(src="@/assets/curso/temas/Tema1/img17.png", alt="alt")
             .col-lg-8
-              p Ley 23 de 1973: expedición código de recursos naturales y protección al medio ambiente. 
-              p Decreto 2811 de 1974: dictámenes código de recursos naturales y protección al medio ambiente.
-              p Ley 84 de 1989: creación estatuto nacional de protección de los animales. 
-              p Ley 99 de 1993: organización del SINA (sistema nacional ambiental) y se dictan otras disposiciones. 
-              p Ley 165 de 1994: aprobación convenios sobre diversidad biológica. 
-              p Ley 611 de 2000: normas para manejo sostenible de especies de fauna silvestre y acuática. 
-              p Resolución 584 de 2002: declaración de especies silvestres amenazadas y se adoptan otras disposiciones. 
-              p Resolución 1172 de 2004: establecimiento sistema nacional de identificación y registro de las especies de fauna en condiciones “Ex situ” 
-              p Ley 1333 de 2009: establecimiento procedimiento sancionatorio ambiental. 
-              p Resolución 207 de 2010: se adiciona el listado de especies silvestres amenazadas y se toman determinaciones. 
-              p Resolución 2210 de 2010: corrección especies silvestres amenazadas y se toman determinaciones.
-              p Decreto 1076 de 2015: normas sector ambiente y dirección del SINA (sistema nacional ambiental). 
-              p Ley 1774 de 2016: tipificación de conductas punibles contra los animales y establecimiento de procedimientos sancionatorios. 
-              p Resolución 1912 de 2017: listado de especies silvestres amenazadas de la diversidad biológica colombiana continental y marino costera.
-          
-
-          
-	 
-
+              ul.mt-4.lista-ul--
+                li 
+                  i.fas.fa-atom.color
+                  |   Ley 23 de 1973: expedición código de recursos naturales y protección al medio ambiente. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Decreto 2811 de 1974: dictámenes código de recursos naturales y protección al medio ambiente.
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 84 de 1989: creación estatuto nacional de protección de los animales. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 99 de 1993: organización del SINA (sistema nacional ambiental) y se dictan otras disposiciones. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 165 de 1994: aprobación convenios sobre diversidad biológica. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 611 de 2000: normas para manejo sostenible de especies de fauna silvestre y acuática. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Resolución 584 de 2002: declaración de especies silvestres amenazadas y se adoptan otras disposiciones. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Resolución 1172 de 2004: establecimiento sistema nacional de identificación y registro de las especies de fauna en condiciones “Ex situ” 
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 1333 de 2009: establecimiento procedimiento sancionatorio ambiental. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Resolución 207 de 2010: se adiciona el listado de especies silvestres amenazadas y se toman determinaciones. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Resolución 2210 de 2010: corrección especies silvestres amenazadas y se toman determinaciones.
+                li 
+                  i.fas.fa-atom.color
+                  |    Decreto 1076 de 2015: normas sector ambiente y dirección del SINA (sistema nacional ambiental). 
+                li 
+                  i.fas.fa-atom.color
+                  |    Ley 1774 de 2016: tipificación de conductas punibles contra los animales y establecimiento de procedimientos sancionatorios. 
+                li 
+                  i.fas.fa-atom.color
+                  |    Resolución 1912 de 2017: listado de especies silvestres amenazadas de la diversidad biológica colombiana continental y marino costera.
+    
+    
+    
 </template>
 
 <script>

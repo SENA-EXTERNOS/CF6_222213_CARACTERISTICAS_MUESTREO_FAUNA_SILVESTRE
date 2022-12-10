@@ -15,7 +15,7 @@
           
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/Tema2/img1.png', alt='Texto que describa la imagen')
+          img(data-aos="fade-left" src='@/assets/curso/temas/Tema2/img1.png', alt='Texto que describa la imagen')
 
     separador
 
@@ -59,7 +59,7 @@
       
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen')
+          img(data-aos="fade-left" src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen')
 
       .col-lg-4
         .bloque-texto-b.color-cajon4
