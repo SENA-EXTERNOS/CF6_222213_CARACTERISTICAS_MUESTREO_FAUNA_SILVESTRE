@@ -7,11 +7,11 @@
         span 3
       h1 Muestreo faunístico
 
-    .row.mt-5.justify-content-center.intro3
-      .col-lg-9.mb-5
-        p.texto-blanco La relación existente entre las comunidades y la fauna silvestre ha estado marcada por los usos que estas dan a los animales, ya sea por la obtención de alimentos a bajo costo (caza), suplementar sus dietas con los productos de los animales cazados, aprovecharlos como materias primas para artesanías, utilizar partes de su cuerpo o fluidos como medicina o eliminarlos porque representan un peligro para los humanos y las actividades que estos realizan, desde una perspectiva sociocultural también han sido utilizados como objetos de apropiación (mascotas) o recreativos además de formar parte de los imaginarios que construyen cultura en una sociedad como mitos, leyendas, arte, folclor o elementos significativos de diversos pueblos y desde un contexto económico ya que durante años la presencia de la fauna silvestre en zoológicos ha sostenido la economía de familias y ciudades enteras.
+    .row.justify-content-center.intro3
+      .col-lg-9
+        p.texto-blanco.text-small La relación existente entre las comunidades y la fauna silvestre ha estado marcada por los usos que estas dan a los animales, ya sea por la obtención de alimentos a bajo costo (caza), suplementar sus dietas con los productos de los animales cazados, aprovecharlos como materias primas para artesanías, utilizar partes de su cuerpo o fluidos como medicina o eliminarlos porque representan un peligro para los humanos y las actividades que estos realizan, desde una perspectiva sociocultural también han sido utilizados como objetos de apropiación (mascotas) o recreativos además de formar parte de los imaginarios que construyen cultura en una sociedad como mitos, leyendas, arte, folclor o elementos significativos de diversos pueblos y desde un contexto económico ya que durante años la presencia de la fauna silvestre en zoológicos ha sostenido la economía de familias y ciudades enteras.
       
-      .col-lg-3
+      .col-lg-3.mt-3
         figure
           img(data-aos="fade-left" src='@/assets/curso/temas/Tema3/img1.png', alt='Texto que describa la imagen').fade-left
 
@@ -59,30 +59,30 @@
     TabsC.color-primario.mt-5
       .py-3.py-md-4(titulo="Método 1").fondo1
         .row
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/temas/Tema3/img3.png', alt='Texto que describa la imagen')
 
-          .col-md-5
-            p El primero de ellos corresponde a los mamíferos pequeños para los cuales se utilizan trampas con cebos que se caracterizan por atraer a los animales con olores atractivos, la elección del cebo va depender de la experiencia del evaluador y del conocimiento que tenga sobre los hábitos alimenticios del mamífero a capturar, se dividen en trampas de captura viva o trampas caja que consisten en cubículos cerrados con una o dos puertas conectadas a un gatillo que el animal pisa al entrar a la jaula y por la presión de su peso libera el cerrojo que mantenía la caja abierta y queda encerrado dentro de la misma, ejemplo de este tipo de trama son las trampas Sherman, Tomahawk y Havahart y trampas de golpeo que consisten en una lámina en donde se coloca el cebo ajustado a un mecanismo que se acciona cuando el animal se acerca y lo toma capturándolo al instante, ejemplo de este tipo de trampas son las trampas Victor y las trampas Museum Special y trampas sin cebos como los cepos que, al activarse, presionan las patas del animal impidiéndole escapar.
+          .col-md-7
+            p.text-small El primero de ellos corresponde a los mamíferos pequeños para los cuales se utilizan trampas con cebos que se caracterizan por atraer a los animales con olores atractivos, la elección del cebo va depender de la experiencia del evaluador y del conocimiento que tenga sobre los hábitos alimenticios del mamífero a capturar, se dividen en trampas de captura viva o trampas caja que consisten en cubículos cerrados con una o dos puertas conectadas a un gatillo que el animal pisa al entrar a la jaula y por la presión de su peso libera el cerrojo que mantenía la caja abierta y queda encerrado dentro de la misma, ejemplo de este tipo de trama son las trampas Sherman, Tomahawk y Havahart y trampas de golpeo que consisten en una lámina en donde se coloca el cebo ajustado a un mecanismo que se acciona cuando el animal se acerca y lo toma capturándolo al instante, ejemplo de este tipo de trampas son las trampas Victor y las trampas Museum Special y trampas sin cebos como los cepos que, al activarse, presionan las patas del animal impidiéndole escapar.
 
       .py-3.py-md-4(titulo="Método 2").fondo1
         .row
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/temas/Tema3/img4.png', alt='Texto que describa la imagen')
 
-          .col-md-5
-            p El segundo corresponde a los métodos utilizados con los murciélagos que implican la captura utilizando redes de niebla, redes de mano o trampas arpa ubicados en la entrada de los refugios y la detección acústica por medio de las señales acústicas que los murciélagos envían para localizarse, estas serán procesadas por detectores acústicos o ultrasonidos para identificar las especies.
+          .col-md-7
+            p.text-small El segundo corresponde a los métodos utilizados con los murciélagos que implican la captura utilizando redes de niebla, redes de mano o trampas arpa ubicados en la entrada de los refugios y la detección acústica por medio de las señales acústicas que los murciélagos envían para localizarse, estas serán procesadas por detectores acústicos o ultrasonidos para identificar las especies.
 
       .py-3.py-md-4(titulo="Método 3").fondo1
         .row
-          .col-md-5
+          .col-md-4
             figure
               img(src='@/assets/curso/temas/Tema3/img5.png', alt='Texto que describa la imagen')
 
-          .col-md-5
-            p El tercer subgrupo de mamíferos medianos y grandes que hace uso de métodos directos como los avistamientos o las vocalizaciones para una correcta determinación de la especie y métodos indirectos como rastros y fotografías usualmente a través de huellas, heces, refugios, huesos, pelos, rasguños, madrigueras y otros resaltando las trampas de pelo, huellas y trampas cámara y entrevistas a los pobladores de manera informal para que ellos describan de manera muy precisa las especies y sus hábitats.
+          .col-md-7
+            p.text-small El tercer subgrupo de mamíferos medianos y grandes que hace uso de métodos directos como los avistamientos o las vocalizaciones para una correcta determinación de la especie y métodos indirectos como rastros y fotografías usualmente a través de huellas, heces, refugios, huesos, pelos, rasguños, madrigueras y otros resaltando las trampas de pelo, huellas y trampas cámara y entrevistas a los pobladores de manera informal para que ellos describan de manera muy precisa las especies y sus hábitats.
 
     .row.mt-5.justify-content-center
       .col-lg-12.mb-5
@@ -203,13 +203,13 @@
     #t_3_6.titulo-segundo.color-acento-contenido.mt-2
       h3 3.6 Bioseguridad
     
-    .row.mt-5.justify-content-center.intro2
-      .col-lg-9.mb-5
-        p.texto-blanco En línea con lo anterior, mencionemos ahora las estrategias que se aplican para evitar riesgos al llevar a cabo los trabajos de campo. La exigencia de esquemas de vacunación contra la rabia, tétanos, fiebre tifoidea y otras enfermedades puede ser de utilidad si se tiene en cuenta la zona en la que se realizan los estudios y los riesgos epidemiológicos asociados que se pueden contrarrestar. Es muy importante el uso de elementos de bioseguridad como guantes, tapabocas, ropa que cubra brazos y piernas, gafas de seguridad y calzado de fácil limpieza y desinfección así como la existencia de un botiquín de primeros auxilios con medicamentos para infecciones intestinales, dolor de cabeza, fiebre, antiinflamatorios y vendas para casos de caídas leves.
+    .row.justify-content-center.intro2
+      .col-lg-9
+        p.texto-blanco.text-small En línea con lo anterior, mencionemos ahora las estrategias que se aplican para evitar riesgos al llevar a cabo los trabajos de campo. La exigencia de esquemas de vacunación contra la rabia, tétanos, fiebre tifoidea y otras enfermedades puede ser de utilidad si se tiene en cuenta la zona en la que se realizan los estudios y los riesgos epidemiológicos asociados que se pueden contrarrestar. Es muy importante el uso de elementos de bioseguridad como guantes, tapabocas, ropa que cubra brazos y piernas, gafas de seguridad y calzado de fácil limpieza y desinfección así como la existencia de un botiquín de primeros auxilios con medicamentos para infecciones intestinales, dolor de cabeza, fiebre, antiinflamatorios y vendas para casos de caídas leves.
       
       .col-lg-3
         figure
-          img(data-aos="fade-left" src='@/assets/curso/temas/Tema3/img16.png', alt='Texto que describa la imagen')
+          img.editimg(data-aos="fade-left" src='@/assets/curso/temas/Tema3/img16.png', alt='Texto que describa la imagen')
     
     separador
     

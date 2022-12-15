@@ -8,7 +8,7 @@
       h1 Paisajes
 
     .row.justify-content-center.align-items-center
-      .col-lg-7.mb-5.sm-8
+      .col-lg-7
         .bloque-texto-b.color-cajon3.p-4
           .bloque-texto-b__texto
             p Características como el hábitat de la fauna son determinantes en los estudios relacionados con la misma. Para estudiar el hábitat es necesario analizar de manera particular el paisaje, que consiste en una región física en donde confluyen factores bióticos y abióticos para formar distintos ecosistemas y permitir el desarrollo de varias especies. El paisaje está compuesto por una matriz o espacio dominante que contiene unos parches o fragmentos que son áreas pequeñas dentro de las mismas y unos corredores que son elementos lineales que conectan dos parches o que se diferencian del terreno de la matriz (Figura 1). La evaluación del paisaje es la más adecuada para llevar a cabo estudios relacionados con la diversidad porque permite realizar medidas a múltiples escalas espacio-temporales que varían con el tiempo y van mostrando patrones que son imprescindibles para el estudio de procesos o fenómenos en torno a una especie. 
@@ -28,12 +28,12 @@
           .bloque-texto-g__img.carimg(
             :style="{'background-image': `url(${require('@/assets/curso/temas/Tema2/img2.png')})`}"
           )
-          .bloque-texto-g__texto2.p-4.mt-5
+          .bloque-texto-g__texto2
             .col-lg-11
               p.text-small.texto-blanco Para la ubicación geográfica de las zonas de estudio se hace necesaria la utilización de sistemas de información geográfica (SIG), que son sistemas encargados de recopilar información geográfica mostrando la información de dicha zona a nivel espacial.
               p.text-small.texto-blanco Los SIG se basan principalmente en mapas que respaldan el trabajo ya sea individual o de organizaciones, se crean mapas a partir de teledetección, fotografía aérea e imágenes de satélites permitiendo modelar y predecir condiciones que pueden afectar un hábitat. 
               p.text-small.texto-blanco  Una vez en campo, se hace necesario obtener datos como coordenadas geográficas y altura de los puntos de muestreo de acuerdo con la metodología que se vaya a aplicar, estos datos incluyen también a los individuos colectados (ya sean observados o colectados en inventario), así como las trampas y redes que sean instaladas. 
-
+        
     #t_2_2.titulo-segundo.color-acento-contenido.mt-3
       h3 2.2 Manipulación
 
@@ -66,6 +66,9 @@
           .bloque-texto-b__texto
             b Espadas y Guiascón, 2017
             i.fas.fa-quote-right
+    
+
+ 
 
 
 </template>
