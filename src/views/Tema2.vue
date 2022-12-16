@@ -51,24 +51,36 @@
 
     .row.mt-3.justify-content-center.mt-2
       .col-lg-1.mb-4
-        .bloque-texto-b.color-cajon4
+        .bloque-texto-b.color-cajon4          
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-      .col-lg-6    
-        p Desde aquí, conviene empezar a estudiar el papel que hasta ahora ha desempeñado la fauna silvestre en el ámbito de la medicina y la búsqueda constante del equilibrio y bienestar humano. Desde los inicios de la humanidad, tanto las especies faunísticas como las especies florísticas han servido para satisfacer las necesidades humanas, especialmente en épocas prehispánicas la fauna jugó un papel determinante en la salud de las poblaciones indígenas por el uso de diversas partes (huesos, uñas, garras, pelos, plumas, cuernos, astas) o productos (huevos, sangre, leche, bilis grasa y orina) de la misma para fines medicinales que eran proporcionados a las comunidades a través de infusiones, cataplasmas, oraciones, ofrendas y baños purificadores para curar diversas afecciones como acidez, asma, cólicos, diabetes, diarreas de bebés, dolores de cabeza, corazón, espalda, estómago, huesos, oídos y pies, gastritis, gripa, heridas, inflamación del colon, mal olor, nariz tapada, problemas de riñones, tos, verrugas, falta de apetito, entre otras. Haciendo uso de partes de animales vertebrados como armadillos, conejos, ardillas, zorros, caballos, chivos, gallinas, pavos de monte, palomas, loros, golondrinas, colibríes, iguanas, tortugas y de animales invertebrados como abejas, grillos, hormigas, alacranes, lombrices de tierra y caracoles.
+      .col-lg-7
+            p.mb-o Desde aquí, conviene empezar a estudiar el papel que hasta ahora ha desempeñado la fauna silvestre en el ámbito de la medicina y la búsqueda constante del equilibrio y bienestar humano. Desde los inicios de la humanidad, tanto las especies faunísticas como las especies florísticas han servido para satisfacer las necesidades humanas, especialmente en épocas prehispánicas la fauna jugó un papel determinante en la salud de las poblaciones indígenas por el uso de diversas partes 
+              span.etiquetacolor 
+                b (huesos, uñas, garras, pelos, plumas, cuernos, astas) o productos (huevos, sangre, leche, bilis grasa y orina) 
+              | de la misma para fines medicinales que eran proporcionados a las comunidades a través de 
+              span.etiquetacolor 
+                b infusiones, cataplasmas, oraciones, ofrendas y baños purificadores 
+              | para curar diversas afecciones como acidez, asma, cólicos, diabetes, diarreas de bebés, dolores de cabeza, corazón, espalda, estómago, huesos, oídos y pies, gastritis, gripa, heridas, inflamación del colon, mal olor, nariz tapada, problemas de riñones, tos, verrugas, falta de apetito, entre otras. Haciendo uso de partes de animales vertebrados como armadillos, conejos, ardillas, zorros, caballos, chivos, gallinas, pavos de monte, palomas, loros, golondrinas, colibríes, iguanas, tortugas y de animales invertebrados como abejas, grillos, hormigas, alacranes, lombrices de tierra y caracoles.
       
-      .col-lg-5
+      .col-lg-4
         figure
           img(data-aos="fade-left" src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen')
 
+
+      
       .col-lg-4
         .bloque-texto-b.color-cajon4
           .bloque-texto-b__texto
             b Espadas y Guiascón, 2017
             i.fas.fa-quote-right
+
+
+
+
     
 
- 
+
 
 
 </template>
