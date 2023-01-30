@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Características y muestreo de la fauna silvestre',
     descripcionCurso:
-      'Se denomina fauna a todas aquellas especies animales que se desarrollan en un espacio determinado, interactuando con factores bióticos y abióticos sin intervención humana, el inventario faunístico proporciona información relevante sobre dichas especies y permite disponer de manera adecuada el uso de la tierra y los recursos biológicos, así como el manejo y conservación de las especies y áreas protegidas.',
+      'Se denomina fauna a todas aquellas especies animales que se desarrollan en un espacio determinado, interactuando con factores bióticos y abióticos y sin intervención humana; el inventario faunístico proporciona información relevante sobre dichas especies, y permite disponer, de manera adecuada, el uso de la tierra y los recursos biológicos, así como el manejo y conservación de las especies y áreas protegidas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -25,38 +25,6 @@ export default {
         numero: '1',
         titulo: 'Fauna silvestre',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Características y organización',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Hábitat y distribución',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Clasificación y taxonomía',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Comportamiento, alimentación y reproducción',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Marco Normativo',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -65,26 +33,6 @@ export default {
         numero: '2',
         titulo: 'Paisajes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Ubicación geográfica',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Manipulación',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Fauna de importancia médica',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -92,50 +40,6 @@ export default {
         numero: '3',
         titulo: 'Muestreo faunístico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Método de muestreo',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Método de inventario',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Muestreo participativo',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Materiales e insumos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Equipos y herramientas',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Bioseguridad',
-            hash: 't_3_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.7',
-            titulo: 'Manejo de registros',
-            hash: 't_3_7',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -180,31 +84,31 @@ export default {
   },
   complementario: [
     {
-      tema: 'Técnicas de muestreo de fauna silvestre',
+      tema: 'Muestreo faunístico',
       referencia:
-        'Carlos Alberto Martínez-Chamorro. (25 de mayo de 2020). <em> Técnicas de muestreo de fauna silvestre</em> [Archivo de Vídeo]. YouTube.',
+        'Martínez, C. (2020). <i>Técnicas de muestreo de fauna silvestre</i>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=kmLudxYudAo',
     },
     {
-      tema: 'Muestreo de fauna silvestre ',
+      tema: 'Muestreo faunístico',
       referencia:
-        'Villagra. (24 de septiembre de 2020. <em> Muestreo de poblaciones animales.</em> [Archivo de Vídeo]. YouTube. ',
+        'Villagra, P. (2020). <i>Muestreo de poblaciones animales</i>. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=8939Jyt2QqI ',
     },
     {
-      tema: 'Métodos de inventario de aves ',
+      tema: 'Muestreo faunístico',
       referencia:
-        'Ministerio del Ambiente de Perú. (2015). <em> Guía de inventario de la fauna silvestre.</em> ',
+        'Ministerio del Ambiente de Perú (2015). <i>Guía de inventario de la fauna silvestre</i>.',
       tipo: 'Guía',
       link:
         'https://www.minam.gob.pe/patrimonio-natural/wp-content/uploads/sites/6/2013/10/GU%C3%83-A-DE-FAUNA-SILVESTRE.compressed.pdf',
     },
     {
-      tema: 'Manejo de registros',
+      tema: 'Muestreo faunístico',
       referencia:
-        'FMCN, CONAFOR, USAID y USFS (2018), "Manual para trazar la Unidad de Muestreo en bosques, selvas, zonas áridas y semiáridas", BIOCOMUNI-Monitoreo Comunitario de la Biodiversidad, una guía para núcleos agrarios, Comisión Nacional Forestal-Fondo Mexicano para la Conservación de la Naturaleza, México. pp.22-25 ',
+        'FMCN, CONAFOR, USAID y USFS (2018). <i>Manual para trazar la Unidad de Muestreo en bosques, selvas, zonas áridas y semiáridas, BIOCOMUNI-Monitoreo Comunitario de la Biodiversidad, una guía para núcleos agrarios, Comisión Nacional Forestal-Fondo Mexicano para la Conservación de la Naturaleza, México</i>.',
       tipo: 'Formatos de registro',
       link:
         'https://www.fonnor.org/wp-content/uploads/2019/02/3.-Manual-de-Monitoreo-de-Fauna.pdf ',
@@ -263,32 +167,34 @@ export default {
   referencias: [
     {
       referencia:
-        'Espadas, R.D. y Guiascón, O.R. (2017). Uso Medicinal de la Fauna Silvestre por Comunidades Mayas, en la Región de Los Chenes, Campeche, México. Revista Etnobiología, 15(2), 68-83',
+        'Darwin, C. (2020). <i>El Origen de Las Especies Mediante la Selección Natural</i>. Aubiblio.',
+    },
+    {
+      referencia:
+        'Espadas, R. & Guiascón, O. (2017). Uso Medicinal de la Fauna Silvestre por Comunidades Mayas, en la Región de Los Chenes, Campeche, México. <i>Revista Etnobiología</i>, 15(2), p. 68-83.',
       link: 'https://revistaetnobiologia.mx/index.php/etno/article/view/136 ',
     },
     {
       referencia:
-        'Farias, A. (2019). Captura y manejo de mamíferos medianos y grandes en campo, capítulo 13 Experimentación con animales no tradicionales en Uruguay. 155-170. ',
+        'Farias, A. (2019).<i> Captura y manejo de mamíferos medianos y grandes en campo, capítulo 13 Experimentación con animales no tradicionales en Uruguay</i>.',
       link:
         'https://www.chea.edu.uy/sites/chea/files/libro_experimentacion_con_animales_no_tradicionales_en_uruguay.pdf',
     },
     {
       referencia:
-        'Lamprea-Maldonado, S.M., Ochoa-Duarte, J.C., Castillo-Sánchez, A., Zárrate-Charry, D., Gómez-Junco, G.P., Jiménez-Alvarado, J.S., Moreno-Díaz, C. y González-Maya, J.F.. (2019). Guía técnica para el manejo de fauna silvestre dentro del territorio CAR. [Documento técnico Centro de atención y valoración de fauna silvestre] ',
+        'Lamprea, S., Ochoa, J., Castillo, A., Zárrate, D., Gómez, G., Jiménez, J., Moreno, C. & González, J. (2019). <i>Guía técnica para el manejo de fauna silvestre dentro del territorio CAR</i>.',
       link:
         'https://sie.car.gov.co/bitstream/handle/20.500.11786/37372/37665.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Medina-Torres, S., Gastélum-Vizcarra, E., Lara-Ponce, E. y Piña-Ruiz, H. (2015). Inventario Participativo de Mamíferos Silvestres en El Ejido San Ignacio, Municipio de Morelos, Chihuahua. Acta Zoológica Mexicana, 31(2), 221-233. ',
+        'Medina, S., Gastélum, E., Lara, E. & Piña, H. (2015). Inventario Participativo de Mamíferos Silvestres en El Ejido San Ignacio, Municipio de Morelos, Chihuahua. <i>Acta Zoológica Mexicana</i>, 31(2), p. 221-233.',
       link:
         'https://pdfs.semanticscholar.org/0402/57b87db6834168cce18eef04a4ea07b6da96.pdf',
     },
     {
       referencia:
-        'Pereira M, N. (2021). Elaboración de un Manual de Manejo y Toma de Muestras en Fauna Silvestre para la Reserva Natural Cabildo Verde en Sabana de Torres. [Tesis de pregrado, Universidad de Santander].',
-      link:
-        'https://repositorio.udes.edu.co/bitstream/001/5466/1/Elaboraci%C3%B3ndeunmanuaLdemanejoytomademuestrasenCabildoVerde.pdf',
+        'Pereira, N. (2021).<i> Elaboración de un Manual de Manejo y Toma de Muestras en Fauna Silvestre para la Reserva Natural Cabildo Verde en Sabana de Torres.</i> [Tesis de pregrado, Universidad de Santander, España]. Repositorio Institucional UDES.',
     },
   ],
   creditos: {
