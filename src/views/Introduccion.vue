@@ -12,7 +12,7 @@
     .row.justify-content-center.intro.align-items-center
       .col-lg-7
         p.text-white Apreciado aprendiz, bienvenido a este componente formativo, donde se explorará una serie de conceptos relevantes para el muestreo de la fauna y para la realización de inventarios faunísticos, entre los cuales tenemos: las características de organización, comportamiento, alimentación y reproducción de la fauna silvestre. Así mismo, se abordarán temas relacionados con el marco normativo, la fauna de importancia médica y los diferentes métodos de muestreo, que sirven de base para reconocer la importancia de estos procesos en la investigación y el análisis de los diferentes ecosistemas.
-        p.text-white En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+        p.text-white En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
       .col-lg-4
         figure
