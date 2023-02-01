@@ -110,8 +110,7 @@ export default {
       referencia:
         'FMCN, CONAFOR, USAID y USFS (2018). <i>Manual para trazar la Unidad de Muestreo en bosques, selvas, zonas áridas y semiáridas, BIOCOMUNI-Monitoreo Comunitario de la Biodiversidad, una guía para núcleos agrarios, Comisión Nacional Forestal-Fondo Mexicano para la Conservación de la Naturaleza, México</i>.',
       tipo: 'Formatos de registro',
-      link:
-        'https://www.fonnor.org/wp-content/uploads/2019/02/3.-Manual-de-Monitoreo-de-Fauna.pdf ',
+      link: 'https://www.usfsmex.org/img/pdf/manual_biocomuni_trazo.pdf',
     },
   ],
   glosario: [
