@@ -135,7 +135,7 @@
           .col-lg-8
             .number(data-number="06")
               b.ps-2 Aves
-              p.ps-2.mb-0.mt-2 Las aves son el grupo de vertebrados más estudiado, el más fáciles de observar y el más numeroso. Se encuentran en bosques, desiertos, montañas, praderas y en los océanos. Se diferencian de los demás vertebrados por la presencia de plumas y extremidades modificadas en forma de alas que les permiten sostenerse y propulsarse, y patas adaptadas para la marcha, natación o para posarse sobre las ramas. Todas poseen picos y ponen huevos, tienen un sistema respiratorio altamente eficaz y un sistema nervioso bien desarrollado con sentidos muy agudos. 	 
+              p.ps-2.mb-0.mt-2 Las aves son el grupo de vertebrados más estudiado, el más fácil de observar y el más numeroso. Se encuentran en bosques, desiertos, montañas, praderas y en los océanos. Se diferencian de los demás vertebrados por la presencia de plumas y extremidades modificadas en forma de alas que les permiten sostenerse y propulsarse, y patas adaptadas para la marcha, natación o para posarse sobre las ramas. Todas poseen picos y ponen huevos, tienen un sistema respiratorio altamente eficaz y un sistema nervioso bien desarrollado con sentidos muy agudos. 	 
  
           .col-lg-4
             figure
