@@ -9,12 +9,12 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-8
-        p El hábitat de la fauna es crucial para los estudios relacionados con ella. Para estudiar el hábitat se hace necesario analizar, de manera particular, el paisaje, el cual consiste en una región física en donde confluyen factores bióticos y abióticos, para conformar diferentes ecosistemas y permitir el desarrollo de varias especies. 
+        p El hábitat de la fauna es crucial para los estudios relacionados con ella. Para estudiar el hábitat se hace necesario analizar, de manera particular el paisaje, el cual consiste en una región física en donde confluyen factores bióticos y abióticos, para conformar diferentes ecosistemas y permitir el desarrollo de varias especies.
 
-        p.bggreen.p-4 El paisaje está compuesto por una matriz o espacio dominante, el cual contiene unos parches o fragmentos (áreas pequeñas dentro de la misma) y unos corredores que son elementos lineales, que conectan dos parches o que se diferencian del terreno de la matriz. 
+        p.bggreen.p-4 El paisaje está compuesto por una matriz o espacio dominante, el cual contiene unos parches o fragmentos (áreas pequeñas dentro de la misma) y unos corredores que son elementos lineales, que conectan dos parches o que se diferencian del terreno de la matriz.
 
-        p La evaluación del paisaje, es lo más adecuado para llevar a cabo estudios relacionados con la diversidad, porque permite realizar medidas a múltiples escalas espacio-temporales, que varían con el tiempo y van mostrando patrones que son imprescindibles para el estudio de procesos o fenómenos en torno a una especie. 
-          
+        p La evaluación del paisaje es lo más adecuado para llevar a cabo estudios relacionados con la diversidad, porque permite realizar medidas a múltiples escalas espacio-temporales, que varían con el tiempo y van mostrando patrones que son imprescindibles para el estudio de procesos o fenómenos en torno a una especie.
+
       .col-lg-4
         figure
           img(data-aos="fade-left" src='@/assets/curso/temas/Tema2/img1.png', alt='Texto que describa la imagen')
@@ -30,9 +30,9 @@
           .bloque-texto-g__texto2
             .col-lg-11
               p.texto-blanco Para la ubicación geográfica de las zonas de estudio se hace necesaria la utilización de sistemas de información geográfica (SIG), que son sistemas encargados de recopilar información geográfica mostrando la información de dicha zona a nivel espacial.
-              p.texto-blanco Los SIG se basan principalmente en mapas que respaldan el trabajo ya sea individual o de organizaciones, se crean mapas a partir de teledetección, fotografía aérea e imágenes de satélites permitiendo modelar y predecir condiciones que pueden afectar un hábitat. 
-              p.texto-blanco  Una vez en campo, se hace necesario obtener datos como coordenadas geográficas y altura de los puntos de muestreo de acuerdo con la metodología que se vaya a aplicar, estos datos incluyen también a los individuos colectados (ya sean observados o colectados en inventario), así como las trampas y redes que sean instaladas. 
-        
+              p.texto-blanco Los SIG se basan principalmente en mapas que respaldan el trabajo ya sea individual o de organizaciones, se crean mapas a partir de teledetección, fotografía aérea e imágenes de satélites permitiendo modelar y predecir condiciones que pueden afectar un hábitat.
+              p.texto-blanco  Una vez en campo, se hace necesario obtener datos como coordenadas geográficas y altura de los puntos de muestreo de acuerdo con la metodología que se vaya a aplicar, estos datos incluyen también a los individuos colectados (ya sean observados o colectados en inventario), así como las trampas y redes que sean instaladas.
+
     h3.mt-5 Manipulación
 
     .row.mt-5.justify-content-center
@@ -46,24 +46,24 @@
 
     .row.mt-3.justify-content-center.mt-2
       .col-lg-1.mb-4
-        .bloque-texto-b.color-cajon4          
+        .bloque-texto-b.color-cajon4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
       .col-lg-7
-            p.mb-o Desde aquí, conviene empezar a estudiar el papel que hasta ahora ha desempeñado la fauna silvestre en el ámbito de la medicina y la búsqueda constante del equilibrio y bienestar humano. Desde los inicios de la humanidad, tanto las especies faunísticas como las especies florísticas han servido para satisfacer las necesidades humanas, especialmente en épocas prehispánicas la fauna jugó un papel determinante en la salud de las poblaciones indígenas por el uso de diversas partes 
-              span.etiquetacolor 
-                b (huesos, uñas, garras, pelos, plumas, cuernos, astas) o productos (huevos, sangre, leche, bilis grasa y orina) 
-              | de la misma para fines medicinales que eran proporcionados a las comunidades a través de 
-              span.etiquetacolor 
-                b infusiones, cataplasmas, oraciones, ofrendas y baños purificadores 
+            p.mb-o Desde aquí, conviene empezar a estudiar el papel que hasta ahora ha desempeñado la fauna silvestre en el ámbito de la medicina y la búsqueda constante del equilibrio y bienestar humano. Desde los inicios de la humanidad, tanto las especies faunísticas como las especies florísticas han servido para satisfacer las necesidades humanas, especialmente en épocas prehispánicas la fauna jugó un papel determinante en la salud de las poblaciones indígenas por el uso de diversas partes
+              span.etiquetacolor
+                b (huesos, uñas, garras, pelos, plumas, cuernos, astas) o productos (huevos, sangre, leche, bilis grasa y orina)
+              | de la misma para fines medicinales que eran proporcionados a las comunidades a través de
+              span.etiquetacolor
+                b infusiones, cataplasmas, oraciones, ofrendas y baños purificadores
               | para curar diversas afecciones como acidez, asma, cólicos, diabetes, diarreas de bebés, dolores de cabeza, corazón, espalda, estómago, huesos, oídos y pies, gastritis, gripa, heridas, inflamación del colon, mal olor, nariz tapada, problemas de riñones, tos, verrugas, falta de apetito, entre otras. Haciendo uso de partes de animales vertebrados como armadillos, conejos, ardillas, zorros, caballos, chivos, gallinas, pavos de monte, palomas, loros, golondrinas, colibríes, iguanas, tortugas y de animales invertebrados como abejas, grillos, hormigas, alacranes, lombrices de tierra y caracoles.
-      
+
       .col-lg-4
         figure
           img(data-aos="fade-left" src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen')
 
 
-      
+
       .col-lg-4
         .bloque-texto-b.color-cajon4
           .bloque-texto-b__texto
@@ -73,7 +73,7 @@
 
 
 
-    
+
 
 
 

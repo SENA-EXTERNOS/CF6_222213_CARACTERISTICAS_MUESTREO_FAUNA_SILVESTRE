@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Características y muestreo de la fauna silvestre',
     descripcionCurso:
-      'Se denomina fauna a todas aquellas especies animales que se desarrollan en un espacio determinado, interactuando con factores bióticos y abióticos y sin intervención humana; el inventario faunístico proporciona información relevante sobre dichas especies, y permite disponer, de manera adecuada, el uso de la tierra y los recursos biológicos, así como el manejo y conservación de las especies y áreas protegidas.',
+      'Se denomina fauna a todas aquellas especies animales que se desarrollan en un espacio determinado, interactuando con factores bióticos y abióticos, sin intervención humana; el inventario faunístico proporciona información relevante sobre dichas especies, y permite disponer, de manera adecuada, el uso de la tierra y los recursos biológicos, así como el manejo y conservación de las especies y áreas protegidas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -194,6 +194,8 @@ export default {
     {
       referencia:
         'Pereira, N. (2021).<i> Elaboración de un Manual de Manejo y Toma de Muestras en Fauna Silvestre para la Reserva Natural Cabildo Verde en Sabana de Torres.</i> [Tesis de pregrado, Universidad de Santander, España]. Repositorio Institucional UDES.',
+      link:
+        'https://repositorio.udes.edu.co/server/api/core/bitstreams/c3ad4d86-21e6-43a3-8807-64f895a61a4c/content',
     },
   ],
   creditos: {
