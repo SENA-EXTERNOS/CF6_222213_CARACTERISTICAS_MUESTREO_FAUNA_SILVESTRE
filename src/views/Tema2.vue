@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-8
-        p El hábitat de la fauna es crucial para los estudios relacionados con ella. Para estudiar el hábitat se hace necesario analizar, de manera particular el paisaje, el cual consiste en una región física en donde confluyen factores bióticos y abióticos, para conformar diferentes ecosistemas y permitir el desarrollo de varias especies.
+        p El hábitat de la fauna es crucial para los estudios relacionados con ella. Para estudiar el hábitat se hace necesario analizar de manera particular el paisaje, el cual consiste en una región física en donde confluyen factores bióticos y abióticos, para conformar diferentes ecosistemas y permitir el desarrollo de varias especies.
 
         p.bggreen.p-4 El paisaje está compuesto por una matriz o espacio dominante, el cual contiene unos parches o fragmentos (áreas pequeñas dentro de la misma) y unos corredores que son elementos lineales, que conectan dos parches o que se diferencian del terreno de la matriz.
 
