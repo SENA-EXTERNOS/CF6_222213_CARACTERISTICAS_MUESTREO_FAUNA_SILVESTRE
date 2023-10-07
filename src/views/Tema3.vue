@@ -40,7 +40,7 @@
                       .col.mb-4.mb-sm-0
                         p.mb-0.texto-blanco Conozca, a profundidad, los métodos de muestreo, los lineamientos descriptivos y todo lo necesario, para un adecuado inventario faunístico. Explore con atención, el siguiente documento:
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Métodos de muestreo.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Metodos_de_muestreo.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
     h3.mt-5 Métodos de inventario
@@ -172,7 +172,7 @@
                 .col.mb-4.mb-sm-0
                   p.texto-blanco.mb-0 En el siguiente anexo, se detallan los <b>materiales e insumos</b> que hacen posible el estudio y ejecución de los muestreos, para realizar los inventarios faunísticos.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Materiales e insumos.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Materiales_e_insumos.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
